@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class fibnocciSeries{
+public static void main(String args[]){
+Scanner sc= new Scanner(System.in);
+System.out.print("Enter the length of the values: ");
+int n = sc.nextInt();
+for(int i =0;i<n;i++){
+System.out.println("Finocci Series: + " "):
+int firstnum = 0;secondnum = 1;
+int nextTerm = firstnum + secondnum;
+firstnum = secondnum;
+secondnum = nextTerm;
+}
+}
+}
